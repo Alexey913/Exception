@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws MyArrayDataException {
-        String[][] array = new String [][] {{"1","8","3","4"}, {"5","6","7","8","9"}, {"9","8","11","12"}, {"13","7","15","19"}};
+        String[][] array = new String [][] {{"1","8","3","4"}, {"5","6","7","8"}, {"9","8","11","12"}, {"13","7","15","19"}};
         System.out.println(ArrayMethod.sumElementsArray(array));
     }
 
